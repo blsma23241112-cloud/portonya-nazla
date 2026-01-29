@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Nazla</title>
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Sniglet&family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: 'Sniglet', cursive;
+            background-color: #eef7ff;
+            color: #355070;
+        }
+
+        header {
+            background: linear-gradient(135deg, #7cc7ff, #b5e3ff);
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 6px dashed white;
+            object-fit: cover;
+            margin-bottom: 15px;
+            background-color: #fff;
+        }
+
+        header h1 {
+            font-family: 'Cherry Bomb One', cursive;
+            font-size: 42px;
+            margin: 10px 0;
+        }
+
+        nav a {
+            background-color: rgba(255,255,255,0.25);
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            margin: 5px;
+            border-radius: 20px;
+            display: inline-block;
+            font-size: 15px;
+        }
+
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 35px 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 30px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 12px 25px rgba(0, 140, 255, 0.15);
+        }
+
+        h2 {
+            font-family: 'Cherry Bomb One', cursive;
+            color: #5dade2;
+        }
+
+        .skills span {
+            display: inline-block;
+            background-color: #e0f1ff;
+            padding: 10px 20px;
+            margin: 8px;
+            border-radius: 30px;
+        }
+
+        .project-item {
+            background-color: #f2f9ff;
+            padding: 18px;
+            border-radius: 25px;
+            margin-bottom: 18px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            font-family: 'Sniglet', cursive;
+        }
+
+        button {
+            background: linear-gradient(135deg, #7cc7ff, #5dade2);
+            color: white;
+            border: none;
+            padding: 12px 26px;
+            border-radius: 40px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #d9efff;
+            border-top-left-radius: 35px;
+            border-top-right-radius: 35px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- HOME -->
+<header id="home">
+    <img src="babi (12).jpg" alt="Foto Profil">
+    <h1>Nazla Bilqis ✨</h1>
+    <p>Pelajar SMA | Calon Mahasiswa PGSD 💙</p>
+    <p>Suka hal lucu, kreatif, dan penuh semangat belajar 🌈</p>
+
+    <nav>
+        <a href="#tentang">Tentang</a>
+        <a href="#skill">Skill</a>
+        <a href="#portfolio">Portofolio</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+</header>
+
+<!-- ABOUT ME -->
+<section id="tentang">
+    <div class="card">
+        <h2>🐷 Tentang Aku</h2>
+        <p>
+            Haii~ aku Nazla Bilqis 🐻  
+            Saat ini aku adalah siswi kelas 12 SMA BudiLuhur.
+        </p>
+        <p>
+            Aku memiliki minat di dunia pendidikan dan bercita-cita
+            melanjutkan kuliah jurusan <b>PGSD</b> di <b>UNJ atau UPI</b>.
+        </p>
+    </div>
+</section>
+
+<!-- SKILL -->
+<section id="skill">
+    <div class="card">
+        <h2>✨ Skill Aku</h2>
+        <div class="skills">
+            <span>Masak</span>
+            <span>Lukis</span>
+            <span>Sabar</span>
+            <span>Manajemen Waktu</span>
+            <span>Kreatif</span>
+        </div>
+    </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+    <div class="card">
+        <h2>📁 Karya / Projek</h2>
+
+        <div class="project-item">
+            <h3>🎨 Melukis Manual</h3>
+            <p>Melukis sederhana dengan berbagai tema.</p>
+            <p><b>Tools:</b> Canvas / Pensil Warna / Cat Akrilik dll</p>
+        </div>
+
+        <div class="project-item">
+            <h3>🍰 Masakan Rumahan</h3>
+            <p>Membuat makanan sederhana untuk cemilan.</p>
+            <p><b>Tools:</b> Peralatan dapur</p>
+        </div>
+
+        <div class="project-item">
+            <h3>🌐 Website Portofolio</h3>
+            <p>Website pribadi menggunakan HTML & CSS.</p>
+            <p><b>Tools:</b> HTML, CSS</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="kontak">
+    <div class="card">
+        <h2>📩 Kontak Aku</h2>
+        <p>Email: helenocyne@email.com</p>
+        <p>No HP: 08xxxxxxxx</p>
+        <p>Instagram: @ocyne</p>
+
+        <h3>💌 Kirim Pesan</h3>
+        <form>
+            <input type="text" placeholder="Nama kamu">
+            <input type="email" placeholder="Email kamu">
+            <textarea rows="4" placeholder="Pesan..."></textarea>
+            <button type="submit">Kirim 💙</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Nazla Bilqis 💙🧸</p>
+</footer>
+
+</body>
+</html>
